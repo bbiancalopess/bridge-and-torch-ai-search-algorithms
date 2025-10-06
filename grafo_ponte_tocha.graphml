@@ -9,19 +9,19 @@
     <node id="inicio=BD|tocha=final" />
     <node id="inicio=AD|tocha=final" />
     <node id="inicio=CD|tocha=final" />
-    <node id="inicio=ABC|tocha=inicio" />
     <node id="inicio=ABD|tocha=inicio" />
+    <node id="inicio=ABC|tocha=inicio" />
     <node id="inicio=BCD|tocha=inicio" />
     <node id="inicio=ACD|tocha=inicio" />
     <node id="inicio=B|tocha=final" />
     <node id="inicio=A|tocha=final" />
-    <node id="inicio=C|tocha=final" />
     <node id="inicio=D|tocha=final" />
-    <node id="inicio=BC|tocha=inicio" />
+    <node id="inicio=C|tocha=final" />
     <node id="inicio=BD|tocha=inicio" />
     <node id="inicio=AB|tocha=inicio" />
-    <node id="inicio=AC|tocha=inicio" />
+    <node id="inicio=BC|tocha=inicio" />
     <node id="inicio=AD|tocha=inicio" />
+    <node id="inicio=AC|tocha=inicio" />
     <node id="inicio=CD|tocha=inicio" />
     <node id="inicio=VAZIO|tocha=final" />
     <edge source="inicio=ABCD|tocha=inicio" target="inicio=AB|tocha=final">
@@ -42,17 +42,17 @@
     <edge source="inicio=ABCD|tocha=inicio" target="inicio=CD|tocha=final">
       <data key="d0">2</data>
     </edge>
+    <edge source="inicio=AB|tocha=final" target="inicio=ABD|tocha=inicio">
+      <data key="d0">10</data>
+    </edge>
     <edge source="inicio=AB|tocha=final" target="inicio=ABC|tocha=inicio">
       <data key="d0">5</data>
     </edge>
-    <edge source="inicio=AB|tocha=final" target="inicio=ABD|tocha=inicio">
+    <edge source="inicio=BC|tocha=final" target="inicio=BCD|tocha=inicio">
       <data key="d0">10</data>
     </edge>
     <edge source="inicio=BC|tocha=final" target="inicio=ABC|tocha=inicio">
       <data key="d0">1</data>
-    </edge>
-    <edge source="inicio=BC|tocha=final" target="inicio=BCD|tocha=inicio">
-      <data key="d0">10</data>
     </edge>
     <edge source="inicio=AC|tocha=final" target="inicio=ACD|tocha=inicio">
       <data key="d0">10</data>
@@ -60,31 +60,22 @@
     <edge source="inicio=AC|tocha=final" target="inicio=ABC|tocha=inicio">
       <data key="d0">2</data>
     </edge>
-    <edge source="inicio=BD|tocha=final" target="inicio=BCD|tocha=inicio">
-      <data key="d0">5</data>
-    </edge>
     <edge source="inicio=BD|tocha=final" target="inicio=ABD|tocha=inicio">
       <data key="d0">1</data>
     </edge>
-    <edge source="inicio=AD|tocha=final" target="inicio=ACD|tocha=inicio">
+    <edge source="inicio=BD|tocha=final" target="inicio=BCD|tocha=inicio">
       <data key="d0">5</data>
     </edge>
     <edge source="inicio=AD|tocha=final" target="inicio=ABD|tocha=inicio">
       <data key="d0">2</data>
     </edge>
+    <edge source="inicio=AD|tocha=final" target="inicio=ACD|tocha=inicio">
+      <data key="d0">5</data>
+    </edge>
     <edge source="inicio=CD|tocha=final" target="inicio=ACD|tocha=inicio">
       <data key="d0">1</data>
     </edge>
     <edge source="inicio=CD|tocha=final" target="inicio=BCD|tocha=inicio">
-      <data key="d0">2</data>
-    </edge>
-    <edge source="inicio=ABC|tocha=inicio" target="inicio=B|tocha=final">
-      <data key="d0">5</data>
-    </edge>
-    <edge source="inicio=ABC|tocha=inicio" target="inicio=A|tocha=final">
-      <data key="d0">5</data>
-    </edge>
-    <edge source="inicio=ABC|tocha=inicio" target="inicio=C|tocha=final">
       <data key="d0">2</data>
     </edge>
     <edge source="inicio=ABD|tocha=inicio" target="inicio=B|tocha=final">
@@ -96,25 +87,31 @@
     <edge source="inicio=ABD|tocha=inicio" target="inicio=D|tocha=final">
       <data key="d0">2</data>
     </edge>
-    <edge source="inicio=BCD|tocha=inicio" target="inicio=B|tocha=final">
+    <edge source="inicio=ABC|tocha=inicio" target="inicio=B|tocha=final">
+      <data key="d0">5</data>
+    </edge>
+    <edge source="inicio=ABC|tocha=inicio" target="inicio=A|tocha=final">
+      <data key="d0">5</data>
+    </edge>
+    <edge source="inicio=ABC|tocha=inicio" target="inicio=C|tocha=final">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="inicio=BCD|tocha=inicio" target="inicio=C|tocha=final">
       <data key="d0">10</data>
     </edge>
     <edge source="inicio=BCD|tocha=inicio" target="inicio=D|tocha=final">
       <data key="d0">5</data>
     </edge>
-    <edge source="inicio=BCD|tocha=inicio" target="inicio=C|tocha=final">
-      <data key="d0">10</data>
-    </edge>
-    <edge source="inicio=ACD|tocha=inicio" target="inicio=A|tocha=final">
+    <edge source="inicio=BCD|tocha=inicio" target="inicio=B|tocha=final">
       <data key="d0">10</data>
     </edge>
     <edge source="inicio=ACD|tocha=inicio" target="inicio=C|tocha=final">
       <data key="d0">10</data>
     </edge>
-    <edge source="inicio=ACD|tocha=inicio" target="inicio=D|tocha=final">
-      <data key="d0">5</data>
+    <edge source="inicio=ACD|tocha=inicio" target="inicio=A|tocha=final">
+      <data key="d0">10</data>
     </edge>
-    <edge source="inicio=B|tocha=final" target="inicio=BC|tocha=inicio">
+    <edge source="inicio=ACD|tocha=inicio" target="inicio=D|tocha=final">
       <data key="d0">5</data>
     </edge>
     <edge source="inicio=B|tocha=final" target="inicio=BD|tocha=inicio">
@@ -123,7 +120,7 @@
     <edge source="inicio=B|tocha=final" target="inicio=AB|tocha=inicio">
       <data key="d0">1</data>
     </edge>
-    <edge source="inicio=A|tocha=final" target="inicio=AC|tocha=inicio">
+    <edge source="inicio=B|tocha=final" target="inicio=BC|tocha=inicio">
       <data key="d0">5</data>
     </edge>
     <edge source="inicio=A|tocha=final" target="inicio=AD|tocha=inicio">
@@ -132,26 +129,26 @@
     <edge source="inicio=A|tocha=final" target="inicio=AB|tocha=inicio">
       <data key="d0">2</data>
     </edge>
-    <edge source="inicio=C|tocha=final" target="inicio=AC|tocha=inicio">
-      <data key="d0">1</data>
-    </edge>
-    <edge source="inicio=C|tocha=final" target="inicio=CD|tocha=inicio">
-      <data key="d0">10</data>
-    </edge>
-    <edge source="inicio=C|tocha=final" target="inicio=BC|tocha=inicio">
-      <data key="d0">2</data>
-    </edge>
-    <edge source="inicio=D|tocha=final" target="inicio=CD|tocha=inicio">
+    <edge source="inicio=A|tocha=final" target="inicio=AC|tocha=inicio">
       <data key="d0">5</data>
-    </edge>
-    <edge source="inicio=D|tocha=final" target="inicio=AD|tocha=inicio">
-      <data key="d0">1</data>
     </edge>
     <edge source="inicio=D|tocha=final" target="inicio=BD|tocha=inicio">
       <data key="d0">2</data>
     </edge>
-    <edge source="inicio=BC|tocha=inicio" target="inicio=VAZIO|tocha=final">
+    <edge source="inicio=D|tocha=final" target="inicio=AD|tocha=inicio">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="inicio=D|tocha=final" target="inicio=CD|tocha=inicio">
       <data key="d0">5</data>
+    </edge>
+    <edge source="inicio=C|tocha=final" target="inicio=CD|tocha=inicio">
+      <data key="d0">10</data>
+    </edge>
+    <edge source="inicio=C|tocha=final" target="inicio=AC|tocha=inicio">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="inicio=C|tocha=final" target="inicio=BC|tocha=inicio">
+      <data key="d0">2</data>
     </edge>
     <edge source="inicio=BD|tocha=inicio" target="inicio=VAZIO|tocha=final">
       <data key="d0">10</data>
@@ -159,11 +156,14 @@
     <edge source="inicio=AB|tocha=inicio" target="inicio=VAZIO|tocha=final">
       <data key="d0">2</data>
     </edge>
-    <edge source="inicio=AC|tocha=inicio" target="inicio=VAZIO|tocha=final">
+    <edge source="inicio=BC|tocha=inicio" target="inicio=VAZIO|tocha=final">
       <data key="d0">5</data>
     </edge>
     <edge source="inicio=AD|tocha=inicio" target="inicio=VAZIO|tocha=final">
       <data key="d0">10</data>
+    </edge>
+    <edge source="inicio=AC|tocha=inicio" target="inicio=VAZIO|tocha=final">
+      <data key="d0">5</data>
     </edge>
     <edge source="inicio=CD|tocha=inicio" target="inicio=VAZIO|tocha=final">
       <data key="d0">10</data>
